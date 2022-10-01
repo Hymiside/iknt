@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.text {
+  margin: 20px 0 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text__dark {
+  margin: 70px 0 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #292929;
+  font-family: "Montserrat", sans-serif;
+}
+
+.news__text {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  color: #362929;
+}
+
+.time {
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #B3B1B3;
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
